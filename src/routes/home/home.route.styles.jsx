@@ -8,6 +8,7 @@ export const HomeBannerContainer = styled.div`
     align-items: center;
     position: relative;
 
+
     img {
         width: 100%;
         height: 100%;
@@ -37,6 +38,7 @@ export const HomeBannerMessage = styled.div`
     height: 25%;
     display: flex;
     justify-content: space-between;
+
     position: absolute;
     margin-top: 80px;
     margin-left: 50%;

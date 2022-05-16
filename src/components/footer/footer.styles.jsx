@@ -17,10 +17,10 @@ export const CopyrightContainer = styled.div`
     padding: 1px 20px;
 
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
-    font-family: "Open Sans", sans-serif;
-`;
+    font-family: 'Paytone One', sans-serif;
+    `;
 
 export const CreditContainer = styled(CopyrightContainer)`
 
@@ -29,7 +29,6 @@ export const CreditContainer = styled(CopyrightContainer)`
     text-decoration: none;
     cursor: pointer;
     color: white;
-    font-weight: bold;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Shadows Into Light', cursive; 
     font-size: 20px;
 `;

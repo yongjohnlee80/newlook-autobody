@@ -1,0 +1,8 @@
+<div>
+    <h2>CONTACT</h2>
+    <div>7788 132 St. Unit 5</div>
+    <div>Surrey, BC</div>
+    <div>V3W 0H5</div>
+    <div>(604)503-5005</div>
+</div>
+

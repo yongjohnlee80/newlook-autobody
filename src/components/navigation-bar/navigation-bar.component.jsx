@@ -27,7 +27,6 @@ const Navigation = () => {
                     <NavigationLink to="/">HOME</NavigationLink>
                     <NavigationLink to="/service">SERVICES</NavigationLink>
                     <NavigationLink to="/contact">CONTACT US</NavigationLink>
-                    <NavigationLink to="/auth">SIGN IN</NavigationLink>
                 </NavigationLinkContainer>
             </NavigationContainer>
             <Outlet/>

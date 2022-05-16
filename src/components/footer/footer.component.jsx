@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <>
             <FooterContainer>
-                <CopyrightContainer>Copyright NewLook AutoBody Ltd. 2022 - Legal</CopyrightContainer>
-                <CreditContainer>Created by Yong John Lee</CreditContainer>
+                <CopyrightContainer>Copyright NewLook AutoBody Ltd. 2022</CopyrightContainer>
+                <CreditContainer>Created by Y.S. Lee</CreditContainer>
             </FooterContainer>
         </>
     );
