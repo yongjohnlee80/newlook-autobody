@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/newlook-autobody/static/css/main.0d50fc4c.css",
-    "main.js": "/newlook-autobody/static/js/main.1eb6063e.js",
+    "main.js": "/newlook-autobody/static/js/main.69753ee6.js",
     "static/js/787.b9cd627e.chunk.js": "/newlook-autobody/static/js/787.b9cd627e.chunk.js",
     "static/media/contact.jpg": "/newlook-autobody/static/media/contact.93c3bec06acae7382ebd.jpg",
     "static/media/work.jpg": "/newlook-autobody/static/media/work.89dfd2638e1c449441cb.jpg",
@@ -12,11 +12,11 @@
     "static/media/cover.png": "/newlook-autobody/static/media/cover.1ee0abfdc5a22f0bafa2.png",
     "index.html": "/newlook-autobody/index.html",
     "main.0d50fc4c.css.map": "/newlook-autobody/static/css/main.0d50fc4c.css.map",
-    "main.1eb6063e.js.map": "/newlook-autobody/static/js/main.1eb6063e.js.map",
+    "main.69753ee6.js.map": "/newlook-autobody/static/js/main.69753ee6.js.map",
     "787.b9cd627e.chunk.js.map": "/newlook-autobody/static/js/787.b9cd627e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d50fc4c.css",
-    "static/js/main.1eb6063e.js"
+    "static/js/main.69753ee6.js"
   ]
 }
