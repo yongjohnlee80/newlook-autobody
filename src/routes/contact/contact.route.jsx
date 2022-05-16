@@ -16,6 +16,7 @@ import {
 } from "../image-banner.styles";
 
 import { BaseButton } from "../../components/button/button.styles";
+import { ContactForm } from "../../components/contact-form/contact-form.component";
 
 const ContactUs = () => {
     return (
@@ -42,10 +43,11 @@ const ContactUs = () => {
                     make use of our professional services!
                 </ContentMessage>
                 <ContentImage src={ContentImg} alt="none" width={"40%"} />
+                <ContactForm/>
+                <ContentHeader />
                 <ContentHeader style={{ color: "green" }}>
                     We Give Free Quote!!
                 </ContentHeader>
-                <BaseButton>Book Now</BaseButton>
                 <ContentHeader />
             </ContentContainer>
         </>
