@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d50fc4c.css",
-    "main.js": "/static/js/main.77728460.js",
-    "static/js/787.b9cd627e.chunk.js": "/static/js/787.b9cd627e.chunk.js",
-    "static/media/contact.jpg": "/static/media/contact.93c3bec06acae7382ebd.jpg",
-    "static/media/work.jpg": "/static/media/work.89dfd2638e1c449441cb.jpg",
-    "static/media/links.jpg": "/static/media/links.a626374635ab6f265dd7.jpg",
-    "static/media/contact-us.jpg": "/static/media/contact-us.b3580cd394b68f52d9b8.jpg",
-    "static/media/contact-us-banner.jpg": "/static/media/contact-us-banner.1287ccea2734d740744a.jpg",
-    "static/media/shopfront.png": "/static/media/shopfront.f153a813d85c9293b32c.png",
-    "static/media/cover.png": "/static/media/cover.1ee0abfdc5a22f0bafa2.png",
-    "index.html": "/index.html",
-    "main.0d50fc4c.css.map": "/static/css/main.0d50fc4c.css.map",
-    "main.77728460.js.map": "/static/js/main.77728460.js.map",
-    "787.b9cd627e.chunk.js.map": "/static/js/787.b9cd627e.chunk.js.map"
+    "main.css": "/newlook-autobody/static/css/main.0d50fc4c.css",
+    "main.js": "/newlook-autobody/static/js/main.1eb6063e.js",
+    "static/js/787.b9cd627e.chunk.js": "/newlook-autobody/static/js/787.b9cd627e.chunk.js",
+    "static/media/contact.jpg": "/newlook-autobody/static/media/contact.93c3bec06acae7382ebd.jpg",
+    "static/media/work.jpg": "/newlook-autobody/static/media/work.89dfd2638e1c449441cb.jpg",
+    "static/media/links.jpg": "/newlook-autobody/static/media/links.a626374635ab6f265dd7.jpg",
+    "static/media/contact-us.jpg": "/newlook-autobody/static/media/contact-us.b3580cd394b68f52d9b8.jpg",
+    "static/media/contact-us-banner.jpg": "/newlook-autobody/static/media/contact-us-banner.1287ccea2734d740744a.jpg",
+    "static/media/shopfront.png": "/newlook-autobody/static/media/shopfront.f153a813d85c9293b32c.png",
+    "static/media/cover.png": "/newlook-autobody/static/media/cover.1ee0abfdc5a22f0bafa2.png",
+    "index.html": "/newlook-autobody/index.html",
+    "main.0d50fc4c.css.map": "/newlook-autobody/static/css/main.0d50fc4c.css.map",
+    "main.1eb6063e.js.map": "/newlook-autobody/static/js/main.1eb6063e.js.map",
+    "787.b9cd627e.chunk.js.map": "/newlook-autobody/static/js/787.b9cd627e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d50fc4c.css",
-    "static/js/main.77728460.js"
+    "static/js/main.1eb6063e.js"
   ]
 }
