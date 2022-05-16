@@ -2,10 +2,9 @@ import { useState } from "react";
 
 import { FormInput } from "../form-input/form-input.component";
 
-import { Button } from "../button/button.component";
 
 import "./contact-form.styles.scss";
-import { BaseButton, BlueButton } from "../button/button.styles";
+import { BaseButton } from "../button/button.styles";
 
 const defaultFormFields = {
     displayName: "",

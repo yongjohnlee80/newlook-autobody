@@ -11,7 +11,7 @@ const Header = () => {
                     Tel: (604) 503-5005
                 </AnnouncementContainer>
                 <BlueButton type="button">
-                    Schedule your appointment today
+                    Schedule Your Appointment Today
                 </BlueButton>
             </HeaderContainer>
         </>

@@ -15,7 +15,6 @@ import {
     BannerMessage,
 } from "../image-banner.styles";
 
-import { BaseButton } from "../../components/button/button.styles";
 import { ContactForm } from "../../components/contact-form/contact-form.component";
 
 const ContactUs = () => {

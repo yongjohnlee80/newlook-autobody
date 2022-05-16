@@ -1,17 +1,18 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
-    height: 75px;
+    min-height: 75px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    flex: 1 auto;    
     justify-content: space-between;
     background-color: #303030;
 
 `;
 
 export const AnnouncementContainer = styled.div`
-    width: 30%;
+    min-width: 30%;
     height: 100%;
     display: flex;
     align-items: center;
