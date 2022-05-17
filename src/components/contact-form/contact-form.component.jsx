@@ -75,7 +75,7 @@ export const ContactForm = () => {
                     name="message"
                     value={message}
                 />
-                <BaseButton>Subbmit</BaseButton>
+                <BaseButton>Submit</BaseButton>
             </form>
         </div>
     );
