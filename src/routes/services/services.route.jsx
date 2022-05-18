@@ -5,6 +5,7 @@ import {
     ContentContainer,
     ContentHeader,
     ContentImage,
+    ContentLink,
     ContentMessage,
 } from "../page-content.styles";
 
@@ -14,8 +15,6 @@ import {
     BannerColumn,
     BannerMessage,
 } from "../image-banner.styles";
-
-import { BaseButton } from "../../components/button/button.styles";
 
 const Services = () => {
     return (
@@ -54,7 +53,7 @@ const Services = () => {
                 <ContentHeader style={{ color: "green" }}>
                     We Give Free Quote!!
                 </ContentHeader>
-                <BaseButton>Give Us A Call</BaseButton>
+                <ContentLink href="tel:+16045035005">CALL US @ 604-503-5005</ContentLink>
                 <ContentHeader/>
             </ContentContainer>
         </>

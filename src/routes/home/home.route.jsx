@@ -16,12 +16,12 @@ import {
     ContentContainer,
     ContentHeader,
     ContentImage,
+    ContentLink,
     ContentMessage,
 } from "../page-content.styles";
 import { BlueButton } from "../../components/button/button.styles";
 
 const Home = () => {
-
     const navigate = useNavigate();
 
     const goToServicesHandler = () => {
@@ -44,7 +44,9 @@ const Home = () => {
                         We perform highest quality auto body <br />
                         repair and paint jobs.
                     </BannerMessage>
-                    <BannerButton onClick={goToServicesHandler}>Learn More</BannerButton>
+                    <BannerButton onClick={goToServicesHandler}>
+                        Learn More
+                    </BannerButton>
                 </BannerColumn>
             </ImageBannerContainer>
             <ContentContainer>
@@ -68,10 +70,19 @@ const Home = () => {
                 </ContentMessage>
                 <ContentImage src={RanchImg} alt="Ranch" width={"40%"} />
                 <ContentImage src={LinkImg} alt="Ranch" width={"20%"} />
-                <ContentHeader style={{ color: "#242424" }}>
+                <ContentHeader style={{ color: "green" }}>
                     Come See Us Today!!
                 </ContentHeader>
-                <BlueButton  onClick={goToContactUsHandler}>Book Appointment Today!</BlueButton>
+                <ContentLink href="https://maps.google.com/?q=NewLookAutobodyLtd.+7788+132st+surrey+bc+v3w0h5">
+                    {/* <ContentLink href="https://maps.google.com/?q=NewLookAutobodyLtd.+7788+132st+surrey+bc+v3w0h5"> */}
+                        FIND US ON THE MAP (#5 - 7788 132 St., Surrey)
+                    {/* </ContentLink> */}
+                </ContentLink>
+                <ContentHeader style={{ color: "green" }}>OR</ContentHeader>
+
+                <BlueButton onClick={goToContactUsHandler}>
+                    Book Appointment Today!
+                </BlueButton>
                 <ContentHeader></ContentHeader>
             </ContentContainer>
         </>

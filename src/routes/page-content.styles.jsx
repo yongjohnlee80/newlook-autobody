@@ -50,3 +50,15 @@ export const ContentImage = styled.img`
     opacity: .8;
 `;
 
+export const ContentLink = styled.a`
+    padding: 2px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #D0DAF0;
+    background-color: #303030;
+
+    &:hover {
+        color: #303030;
+        background-color: #D0DAF0;
+    }
+`;

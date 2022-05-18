@@ -14,7 +14,7 @@ const directoryItems = [
             "Surrey, British Columbia",
             "V3W 0H5",
             "Phone: (604) 503-5005",
-            "Email: ",
+            "Email: newlookab1@gmail.com",
         ],
     },
     {

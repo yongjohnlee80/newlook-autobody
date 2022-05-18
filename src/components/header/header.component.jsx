@@ -21,9 +21,9 @@ const Header = () => {
             <HeaderContainer>
                 <AnnouncementContainer>
                     <HeaderLink href="https://maps.google.com/?q=NewLookAutobodyLtd.+7788+132st+surrey+bc+v3w0h5">
-                        <HeaderLink href="https://maps.google.com/?q=NewLookAutobodyLtd.+7788+132st+surrey+bc+v3w0h5">
+                        {/* <HeaderLink href="https://maps.google.com/?q=NewLookAutobodyLtd.+7788+132st+surrey+bc+v3w0h5"> */}
                             #5 - 7788 132 St., Surrey, BC V3W 0H5
-                        </HeaderLink>
+                        {/* </HeaderLink> */}
                     </HeaderLink>
                     <HeaderLink href="tel:+1604503-5005">
                         Tel: (604) 503-5005

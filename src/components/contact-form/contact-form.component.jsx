@@ -7,7 +7,7 @@ import "./contact-form.styles.scss";
 import { BaseButton } from "../button/button.styles";
 
 const defaultFormFields = {
-    displayName: "",
+    name: "",
     email: "",
     phone: "",
     message: "",
@@ -16,18 +16,18 @@ const defaultFormFields = {
 export const ContactForm = ({ hasCancelButton = false }) => {
     const { setIsDropdownMenuOpen } = useContext(DropdownMenuContext);
     const [formFields, setFormFields] = useState(defaultFormFields);
-    const { displayName, email, phone, message } = formFields;
+    const { name, email, phone, message } = formFields;
 
     const cancelDropdownMenuHandler = () => setIsDropdownMenuOpen(false);
 
-    const resetFormFields = () => {
-        setFormFields(defaultFormFields);
-    };
+    // const resetFormFields = () => {
+    //     setFormFields(defaultFormFields);
+    // };
 
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        resetFormFields();
-    };
+    // const handleSubmit = async (event) => {
+    //     event.preventDefault();
+    //     resetFormFields();
+    // };
 
     const handleChange = (event) => {
         const { name, value } = event.target;
@@ -41,14 +41,15 @@ export const ContactForm = ({ hasCancelButton = false }) => {
                 Simply fill out the following e-form and we will contact you
                 right away..
             </span>
-            <form onSubmit={handleSubmit}>
+            {/* <form onSubmit={handleSubmit}> */}
+            <form action="https://formsubmit.co/yongsunglee@my.uopeople.edu" method="POST">
                 <FormInput
                     label="Your Name"
                     type="text"
                     required
                     onChange={handleChange}
-                    name="displayName"
-                    value={displayName}
+                    name="name"
+                    value={name}
                 />
 
                 <FormInput
@@ -78,7 +79,7 @@ export const ContactForm = ({ hasCancelButton = false }) => {
                     value={message}
                 />
                 <div className="button-container">
-                    <BaseButton>Submit</BaseButton>
+                    <BaseButton type="submit">Submit</BaseButton>
                     {hasCancelButton && (
                         <BaseButton onClick={cancelDropdownMenuHandler}>
                             Cancel
