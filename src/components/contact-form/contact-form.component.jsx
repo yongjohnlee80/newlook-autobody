@@ -42,7 +42,10 @@ export const ContactForm = ({ hasCancelButton = false }) => {
                 right away..
             </span>
             {/* <form onSubmit={handleSubmit}> */}
-            <form action="https://formsubmit.co/yongsunglee@my.uopeople.edu" method="POST">
+            <form action="https://formsubmit.co/newlookab1@gmail.com" method="POST">
+            <input type="text" name="_honey" style={{display: "none"}}/>
+            <input type="hidden" name="_captcha" value="false"/>
+            <input type="hidden" name="_next" value="https://www.newlook-autobody.com/submitted"/>
                 <FormInput
                     label="Your Name"
                     type="text"
