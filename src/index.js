@@ -7,13 +7,16 @@ import reportWebVitals from "./reportWebVitals";
 // Custom Code...
 
 import { BrowserRouter } from "react-router-dom";
+import { DropdownMenuProvider } from "./contexts/dropdown-menu.context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
         <BrowserRouter>
-            <App />
+            <DropdownMenuProvider>
+                <App />
+            </DropdownMenuProvider>
         </BrowserRouter>
     </React.StrictMode>
 );

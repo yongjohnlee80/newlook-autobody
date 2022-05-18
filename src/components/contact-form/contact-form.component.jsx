@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { DropdownMenuContext } from "../../contexts/dropdown-menu.context";
 
 import { FormInput } from "../form-input/form-input.component";
-
 
 import "./contact-form.styles.scss";
 import { BaseButton } from "../button/button.styles";
@@ -13,9 +13,12 @@ const defaultFormFields = {
     message: "",
 };
 
-export const ContactForm = () => {
+export const ContactForm = ({ hasCancelButton = false }) => {
+    const { setIsDropdownMenuOpen } = useContext(DropdownMenuContext);
     const [formFields, setFormFields] = useState(defaultFormFields);
     const { displayName, email, phone, message } = formFields;
+
+    const cancelDropdownMenuHandler = () => setIsDropdownMenuOpen(false);
 
     const resetFormFields = () => {
         setFormFields(defaultFormFields);
@@ -24,7 +27,6 @@ export const ContactForm = () => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         resetFormFields();
-
     };
 
     const handleChange = (event) => {
@@ -36,8 +38,8 @@ export const ContactForm = () => {
         <div className="contact-container">
             <h2>Contact Form</h2>
             <span>
-                If you prefer to communicate online, simply fill out the e-form
-                below:
+                Simply fill out the following e-form and we will contact you
+                right away..
             </span>
             <form onSubmit={handleSubmit}>
                 <FormInput
@@ -75,7 +77,14 @@ export const ContactForm = () => {
                     name="message"
                     value={message}
                 />
-                <BaseButton>Submit</BaseButton>
+                <div className="button-container">
+                    <BaseButton>Submit</BaseButton>
+                    {hasCancelButton && (
+                        <BaseButton onClick={cancelDropdownMenuHandler}>
+                            Cancel
+                        </BaseButton>
+                    )}
+                </div>
             </form>
         </div>
     );

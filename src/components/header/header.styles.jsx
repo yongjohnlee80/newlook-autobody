@@ -5,20 +5,31 @@ export const HeaderContainer = styled.div`
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex: 1 auto;    
+    flex: 1 auto;
     justify-content: space-between;
     background-color: #303030;
-
 `;
 
 export const AnnouncementContainer = styled.div`
     min-width: 30%;
     height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
     justify-content: center;
     color: white;
     font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weihgt: light;
+`;
+
+export const HeaderLink = styled.a`
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        font-weight: bold;
+    }
 `;

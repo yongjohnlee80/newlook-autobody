@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import ShopFrontImg from "../../assets/shopfront.png";
 import RanchImg from "../../assets/contact.jpg";
 import LinkImg from "../../assets/links.jpg";
@@ -19,6 +21,17 @@ import {
 import { BlueButton } from "../../components/button/button.styles";
 
 const Home = () => {
+
+    const navigate = useNavigate();
+
+    const goToServicesHandler = () => {
+        navigate("/service");
+    };
+
+    const goToContactUsHandler = () => {
+        navigate("/contact");
+    };
+
     return (
         <>
             <ImageBannerContainer>
@@ -31,7 +44,7 @@ const Home = () => {
                         We perform highest quality auto body <br />
                         repair and paint jobs.
                     </BannerMessage>
-                    <BannerButton>Learn More</BannerButton>
+                    <BannerButton onClick={goToServicesHandler}>Learn More</BannerButton>
                 </BannerColumn>
             </ImageBannerContainer>
             <ContentContainer>
@@ -58,7 +71,7 @@ const Home = () => {
                 <ContentHeader style={{ color: "#242424" }}>
                     Come See Us Today!!
                 </ContentHeader>
-                <BlueButton>Book Appointment Today!</BlueButton>
+                <BlueButton  onClick={goToContactUsHandler}>Book Appointment Today!</BlueButton>
                 <ContentHeader></ContentHeader>
             </ContentContainer>
         </>

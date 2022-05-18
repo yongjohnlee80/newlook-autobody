@@ -9,4 +9,14 @@
         text-align: center;
         color: #442255;
     }
+    .button-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 auto;
+    
+        justify-content: space-between;
+    
+        padding-top: 5%;
+    }
 }
