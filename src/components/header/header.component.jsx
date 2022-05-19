@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { DropdownMenuContext } from "../../contexts/dropdown-menu.context";
 
-import { BlueButton } from "../button/button.styles";
+import { InvertedButton } from "../button/button.styles";
 import { DropdownMenu } from "../dropdown-menu/dropdown-menu.component";
 // import { Button } from "../button/button.component";
 import {
@@ -29,9 +29,9 @@ const Header = () => {
                         Tel: (604) 503-5005
                     </HeaderLink>
                 </AnnouncementContainer>
-                <BlueButton onClick={openDropdownMenuHandler} type="button">
+                <InvertedButton onClick={openDropdownMenuHandler} type="button">
                     Schedule Your Appointment Today
-                </BlueButton>
+                </InvertedButton>
                 {isDropdownMenuOpen && <DropdownMenu />}
             </HeaderContainer>
         </>

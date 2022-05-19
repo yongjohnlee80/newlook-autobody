@@ -53,12 +53,12 @@ export const ContentImage = styled.img`
 export const ContentLink = styled.a`
     padding: 2px;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.9rem;
     color: #D0DAF0;
-    background-color: #303030;
+    background-color: #d71414;
 
     &:hover {
-        color: #303030;
+        color: #d71414;
         background-color: #D0DAF0;
     }
 `;

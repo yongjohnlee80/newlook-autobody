@@ -6,22 +6,23 @@ export const NavigationContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #4D65F1;
+    background-color: #4d65f1;
 `;
 
-export const LogoContainer = styled(Link)`
+export const LogoContainer = styled.div`
+    min-width: 25%;
     height: 100%;
-    color: white;
-    padding: 5px 15px;
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-begin;
 `;
 
 export const MainLogo = styled.img`
-    width: 45%;
-`
+    width: 100%;
+`;
 
 export const NavigationLinkContainer = styled.div`
-    width: 75%;
+    min-width:50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -34,6 +35,16 @@ export const NavigationLink = styled(Link)`
     color: white;
     font-weight: bold;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+`;
+
+export const TextLogo = styled(NavigationLink)`
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+    font-size: 1.9rem;
 `;

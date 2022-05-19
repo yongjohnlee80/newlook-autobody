@@ -14,15 +14,6 @@ export const ImageBannerContainer = styled.div`
     justify-content: space-between;
 
     align-items: center;
-
-    &:hover {
-        & img {
-            transform: scale(1.1);
-
-            transition: transform 20s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-            max-width: 100%;
-        }
-    }
 `;
 
 export const BannerImage = styled.img`
@@ -58,3 +49,12 @@ export const BannerButton = styled(TransButton)`
     display: flex;
     margin-left: 25%;
 `;
+
+// &:hover {
+//     & img {
+//         transform: scale(1.1);
+
+//         transition: transform 20s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+//         max-width: 100%;
+//     }
+// }

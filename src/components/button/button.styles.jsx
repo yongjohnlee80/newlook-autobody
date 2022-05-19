@@ -37,14 +37,14 @@ export const BlueButton = styled(BaseButton)`
 `;
 
 export const InvertedButton = styled(BaseButton)`
-    background-color: white;
+    background-color: #eeeeee;
     color: black;
     border: 1px solid black;
 
     &:hover {
-        background-color: black;
+        background-color: #303030;
         color: white;
-        border: none;
+        border: 1px solid #303030;
     }
 `;
 

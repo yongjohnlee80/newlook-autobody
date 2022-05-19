@@ -4,13 +4,12 @@ import {
     NavigationLink,
     NavigationContainer,
     LogoContainer,
-    MainLogo,
     NavigationLinkContainer,
+    TextLogo,
 } from "./navigation-bar.styles";
 
 import Header from "../header/header.component";
 
-import NewLookLogo from '../../assets/cover.png';
 import Footer from "../footer/footer.component";
 import InformationDeck from "../info-deck/info-deck.component";
 
@@ -20,13 +19,14 @@ const Navigation = () => {
             <Header />
             <NavigationContainer>
                 <LogoContainer to="/">
-                    <MainLogo src={NewLookLogo}/>
+                    <TextLogo to="/">NewLook Autobody</TextLogo>
+                    {/* <MainLogo src={NewLookLogo}/> */}
                 </LogoContainer>
 
                 <NavigationLinkContainer>
-                    <NavigationLink to="/">HOME</NavigationLink>
+                    {window.innerWidth>640 && <NavigationLink to="/">HOME</NavigationLink>}
                     <NavigationLink to="/service">SERVICES</NavigationLink>
-                    <NavigationLink to="/contact">CONTACT US</NavigationLink>
+                    <NavigationLink to="/contact">CONTACT</NavigationLink>
                 </NavigationLinkContainer>
             </NavigationContainer>
             <Outlet/>
