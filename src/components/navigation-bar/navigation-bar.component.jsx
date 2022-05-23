@@ -1,5 +1,7 @@
 import { Outlet } from "react-router-dom";
 
+import { useState, useEffect } from "react";
+
 import {
     NavigationLink,
     NavigationContainer,
@@ -14,6 +16,22 @@ import Footer from "../footer/footer.component";
 import InformationDeck from "../info-deck/info-deck.component";
 
 const Navigation = () => {
+    const [windowDimension, setWindowDimention] = useState(null);
+
+    useEffect(()=> {
+        setWindowDimention(window.innerWidth);
+    }, []);
+
+    useEffect(()=>{
+        function handleResize() {
+            setWindowDimention(window.innerWidth);
+        }
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
+    const isNotMobile = windowDimension > 640;
+
     return (
         <>
             <Header />
@@ -24,14 +42,16 @@ const Navigation = () => {
                 </LogoContainer>
 
                 <NavigationLinkContainer>
-                    {window.innerWidth>640 && <NavigationLink to="/">HOME</NavigationLink>}
+                    {isNotMobile && (
+                        <NavigationLink to="/">HOME</NavigationLink>
+                    )}
                     <NavigationLink to="/service">SERVICES</NavigationLink>
                     <NavigationLink to="/contact">CONTACT</NavigationLink>
                 </NavigationLinkContainer>
             </NavigationContainer>
-            <Outlet/>
-            <InformationDeck/>
-            <Footer/>
+            <Outlet />
+            <InformationDeck />
+            <Footer />
         </>
     );
 };

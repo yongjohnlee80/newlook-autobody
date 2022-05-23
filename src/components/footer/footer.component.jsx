@@ -12,7 +12,7 @@ const Footer = () => {
                     Copyright NewLook AutoBody Ltd. 2022
                 </CopyrightContainer>
                 <CreditContainer
-                    href="https://www.linkedin.com/in/yong-sung-john-lee-a4a9591bb/"
+                    href="https://www.yongsunglee.com"
                     target="_blank"
                     rel="noreferrer"
                 >
