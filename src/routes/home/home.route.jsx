@@ -1,8 +1,9 @@
 import { useNavigate } from "react-router-dom";
 
 import ShopFrontImg from "../../assets/shopfront.png";
-import RanchImg from "../../assets/contact.jpg";
-import LinkImg from "../../assets/links.jpg";
+// import RanchImg from "../../assets/contact.jpg";
+// import LinkImg from "../../assets/links.jpg";
+import IcbcLogo from "../../assets/ICBC_Logo.png";
 
 import {
     ImageBannerContainer,
@@ -68,8 +69,8 @@ const Home = () => {
                     so that you can be sure that you’ll be covered in the long
                     run.
                 </ContentMessage>
-                <ContentImage src={RanchImg} alt="Ranch" width={"40%"} />
-                <ContentImage src={LinkImg} alt="Ranch" width={"20%"} />
+                <ContentImage src={IcbcLogo} alt="ICBC" width={"40%"} />
+                {/* <ContentImage src={LinkImg} alt="Ranch" width={"20%"} /> */}
                 <ContentHeader style={{ color: "green" }}>
                     Come See Us Today!!
                 </ContentHeader>

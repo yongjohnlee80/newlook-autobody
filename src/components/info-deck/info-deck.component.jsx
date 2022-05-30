@@ -29,10 +29,12 @@ const directoryItems = [
     {
         title: "SERVICES",
         items: [
-            "Body Repair",
+            "Autobody Repair",
             "Body Painting",
-            "Mechanical Work",
-            "Rebuild Frame",
+            "Collision Repair",
+            "Insurance Claims",
+            "Pick up/Drop off Service",
+            "Windshield & Glass Repair",
         ],
     },
 ];
