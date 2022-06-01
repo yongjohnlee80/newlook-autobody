@@ -89,7 +89,7 @@ const Services = () => {
                 <ContentHeader>
                     Autobody Repairs for Surrey, Delta and Surrounding Areas
                 </ContentHeader>
-                <ContentImage src={WorkImg} alt="none" width={"25%"} />
+                {/* <ContentImage src={WorkImg} alt="none" width={"25%"} /> */}
 
                 <ContentMessage>
                     At NewLook AutoBody Ltd. we strive to deliver all-inclusive,
