@@ -19,7 +19,7 @@ export const ContentHeader = styled.div`
     justify-content: center;
     font-weight: bold;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #4d3df1;
     font-family: "Open Sans", sans-serif;
     padding: 3%;
@@ -31,16 +31,16 @@ export const ContentMessage = styled(ContentHeader)`
     justify-content: center;
     align-items: center;
 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: light;
     color: black;
 
     font-family: "Ubuntu", sans-serif;
-    padding: 1%;
+    padding: 1rem;
 `;
 
 export const ContentImage = styled.img`
-    min-width: 25%;
+    min-width: 40%;
     max-width: 80%;
     height: auto;
     object-fit: cover;
@@ -52,7 +52,7 @@ export const ContentImage = styled.img`
 export const ContentLink = styled.a`
     padding: 2px;
     text-decoration: none;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     color: #d0daf0;
     background-color: #d71414;
 
