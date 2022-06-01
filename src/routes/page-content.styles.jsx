@@ -31,7 +31,7 @@ export const ContentMessage = styled(ContentHeader)`
     justify-content: center;
     align-items: center;
 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: light;
     color: black;
 
