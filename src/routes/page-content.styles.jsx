@@ -10,7 +10,7 @@ export const ContentContainer = styled.div`
     justify-content: center;
 
     padding-top: 5%;
-    background-color: #D0DAF0;
+    background-color: #d0daf0;
 `;
 
 export const ContentHeader = styled.div`
@@ -31,7 +31,6 @@ export const ContentMessage = styled(ContentHeader)`
     justify-content: center;
     align-items: center;
 
-
     font-size: 1.5rem;
     font-weight: light;
     color: black;
@@ -47,18 +46,44 @@ export const ContentImage = styled.img`
     object-fit: cover;
     pointer-events: none;
     padding: 4%;
-    opacity: .8;
+    opacity: 0.8;
 `;
 
 export const ContentLink = styled.a`
     padding: 2px;
     text-decoration: none;
     font-size: 1.9rem;
-    color: #D0DAF0;
+    color: #d0daf0;
     background-color: #d71414;
 
     &:hover {
         color: #d71414;
-        background-color: #D0DAF0;
+        background-color: #d0daf0;
     }
+`;
+
+export const Certificate = styled.img`
+    padding: 1rem;
+    height: 18rem;
+    width: 18rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px grey;
+    margin: 10px;
+    display: block;
+    text-align: center;
+`;
+
+export const CertCardsBox = styled.div`
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 75%;
+    scrollbar-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 auto;
+    flex-grow: 3;
 `;

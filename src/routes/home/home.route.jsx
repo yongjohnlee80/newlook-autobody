@@ -53,31 +53,30 @@ const Home = () => {
             <ContentContainer>
                 <ContentHeader>Surrey’s Auto Body Professionals</ContentHeader>
                 <ContentMessage>
-                    If you’ve been in a fender bender and need a quick and
-                    efficient fix, bring your vehicle to NewLook Autobody Ltd.,
-                    Surrey’s friendly and reliable auto body repair experts. We
-                    have the know-how and experience to get your repairs done
-                    promptly, professionally, and at affordable prices. When you
-                    bring your vehicle to our shop, we make it our priority to
-                    get you back on the road as quickly as possible and with
-                    minimum stress. Our courteous and efficient team specializes
-                    in handling ICBC accident claims for residents of Surrey and
-                    the surrounding areas. When you entrust your vehicle to us
-                    you are guaranteed to receive courteous hassle-free service,
-                    top-notch workmanship, and reasonable pricing. Additionally,
-                    all of our work comes with a lifetime workmanship guarantee
-                    so that you can be sure that you’ll be covered in the long
-                    run.
+                    If you’ve been in an accident and require a swift and
+                    efficient repair, bring your vehicle to NewLook Autobody
+                    Ltd., Surrey’s friendly and reliable auto body repair
+                    experts. We have the know-how and expertise to get your
+                    repairs done swiftly and professionally at an affordable
+                    price. It is our number one priority to get you back on the
+                    road as quickly as possible with minimum stress. Our
+                    friendly team of experts specializes in handling ICBC
+                    accident claims for residents of Surrey and nearby regions.
+                    You can entrust your vehicle to us and we guarantee to
+                    provide courteous hassle-free service, top-notch
+                    workmanship, and affordable pricing. In addition, all of our
+                    work comes with a lifetime workmanship guarantee so that you
+                    can be assured. We also provide pick-up and drop-off
+                    services to accommodate your busy schedule.
                 </ContentMessage>
-                <ContentImage src={IcbcLogo} alt="ICBC" width={"40%"} />
                 {/* <ContentImage src={LinkImg} alt="Ranch" width={"20%"} /> */}
+                <ContentImage src={IcbcLogo} alt="ICBC" width={"40%"} />
+
                 <ContentHeader style={{ color: "green" }}>
                     Come See Us Today!!
                 </ContentHeader>
                 <ContentLink href="https://maps.google.com/?q=NewLookAutobodyLtd.+7788+132st+surrey+bc+v3w0h5">
-                    {/* <ContentLink href="https://maps.google.com/?q=NewLookAutobodyLtd.+7788+132st+surrey+bc+v3w0h5"> */}
-                        FIND US ON THE MAP (#5 - 7788 132 St., Surrey)
-                    {/* </ContentLink> */}
+                    FIND US ON THE MAP (#5 - 7788 132 St., Surrey)
                 </ContentLink>
                 <ContentHeader style={{ color: "green" }}>OR</ContentHeader>
 
