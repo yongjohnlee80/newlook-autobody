@@ -63,7 +63,7 @@ export const ContentLink = styled.a`
 `;
 
 export const Certificate = styled.img`
-    padding: 1rem;
+    padding: 0.5rem;
     height: 18rem;
     width: 18rem;
     border: 1px solid gray;
@@ -75,7 +75,7 @@ export const Certificate = styled.img`
 `;
 
 export const CertCardsBox = styled.div`
-    margin: 0;
+    margin: 2rem 15%;
     padding: 0;
     height: auto;
     width: 75%;
